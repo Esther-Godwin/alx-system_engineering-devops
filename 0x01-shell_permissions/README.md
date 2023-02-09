@@ -12,3 +12,7 @@
 11-directories_permissions adds execute permission to all subdirectories in the current working directory excluding files for everyone
 12-directory_permissions creates a new directory and sets the permission for the directory
 13-change_group changes the group owner to school for file 'hello'
+100-change_owner_and_group changes the owner and group of all files and sub directories in the current working directory
+101-symbolic_link_permissions changes the owner and group of a symbolic link
+102-if_only changes the owner of the file to betty only if it is owned by guillaume
+103-Star_Wars plays star wars IV in the terminal
