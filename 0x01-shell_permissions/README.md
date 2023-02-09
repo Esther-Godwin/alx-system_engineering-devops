@@ -5,3 +5,10 @@
 4-empty creates an empty file
 5-execute adds execute permission to the owner of the file 'hello'
 6-multiple_permissions adds multiple permissions for the owner of the file, group owner, and others
+7-everybody adds execute permission to everybody
+8-James_Bond set no permission for the owner and group, but all permission for others for the file 'Hello'
+9-John_Doe sets the mode of the file 'hello' to rwxr-x-wx
+10-mirror_permissions sets the permission mode of the file 'hello' to that of 'olleh'
+11-directories_permissions adds execute permission to all subdirectories in the current working directory excluding files for everyone
+12-directory_permissions creates a new directory and sets the permission for the directory
+13-change_group changes the group owner to school for file 'hello'
